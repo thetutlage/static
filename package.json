@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sponsorkit": "^0.4.2"
+    "sponsorkit": "^0.6.0"
   }
 }

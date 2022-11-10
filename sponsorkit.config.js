@@ -4,6 +4,11 @@ import sponsorsList from './platinum_sponsors.json'
 export default defineConfig({
   tiers: [
     {
+      title: 'Past Sponsors',
+      monthlyDollars: -1,
+      preset: presets.xs,
+    },
+    {
       title: 'Backers',
       preset: presets.small,
     },
