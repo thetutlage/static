@@ -166,5 +166,11 @@
     "color": "008480",
     "description": "Want to contribute? Just filter by this label",
     "aliases": ["good first issue"]
+  },
+  {
+    "name": "Pinned",
+    "color": "34e0c1",
+    "description": "Issue is pinned and should not be closed",
+    "aliases": []
   }
 ]
