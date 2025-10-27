@@ -1,5 +1,4 @@
 import { defineConfig, presets } from 'sponsorkit'
-import sponsorsList from './platinum_sponsors.json'
 
 export default defineConfig({
   tiers: [
@@ -26,14 +25,6 @@ export default defineConfig({
       title: 'Gold Sponsors',
       monthlyDollars: 100,
       preset: presets.large,
-    },
-    {
-      title: 'Platinum Sponsors',
-      monthlyDollars: Infinity,
-      preset: presets.xl,
-      composeAfter(compose) {
-        compose.addTitle('Platinum Sponsors').addSponsorGrid(sponsorsList, presets.xl)
-      },
     },
   ],
 })
